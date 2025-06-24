@@ -37,7 +37,9 @@ This project uses a cleaned version of the **Video Game Sales** dataset (`vgsale
   - Japan: $0.08M  
   - Other Regions: $0.05M  
 
-- **Most Popular Genre**: Action  
+- **Most Released Genre**: Sports  
+- **Highest Selling Genre (Global Sales)**: Platform  
+
 - **Year with Most Game Releases**: Around 2009  
 - **Top Publisher by Game Count**: Electronic Arts  
 - **Top Selling Console**: PS2  
