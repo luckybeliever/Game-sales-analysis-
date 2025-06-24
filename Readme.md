@@ -1,54 +1,66 @@
 # Game Sales Data Analysis
 
 ## Objective
-The goal of this project is to explore, clean, and visualize video game sales data. The analysis helps us understand game performance across regions, top publishers, sales trends, and market share.
+The goal of this project is to explore, clean, and visualize global video game sales data. The analysis aims to highlight patterns in sales, identify best-selling platforms and publishers, and provide insights into the gaming industry's trends over the years.
 
 ## Dataset Description
-This project uses a filtered and cleaned version of the **Video Game Sales** dataset (originally known as `vgsales`). It contains details about game names, platforms, release years, genres, publishers, and regional/global sales figures.
+This project uses a cleaned version of the **Video Game Sales** dataset (`vgsales.csv`), filtered to remove missing or incomplete entries.
 
-- **Original Source**: vgsales.csv
-- **Filtered Rows**: Removed missing or incomplete entries
-- **Final Records**: 16,291 games
+- **Source**: vgsales dataset
+- **Cleaned & Filtered Rows**: Only valid games with proper sales and year info
+- **Final Dataset Size**: 16,291 games
 
 ## Tools & Technologies Used
-- Microsoft Excel (Power Query, Pivot Tables, Charts)
-- Power BI (for advanced visualizations)
-- CSV for dataset storage and cleaning
-- GitHub (for project sharing and version control)
+- **Microsoft Excel** (Power Query, Pivot Tables, Slicers, Charts)
+- **CSV** (Data Storage)
+- **GitHub** (Project Hosting and Sharing)
 
 ## Process Overview
-1. **Data Cleaning**  
-   - Removed null values
-   - Filtered out games without proper sales or year information
+1. **Data Cleaning**
+   - Removed null or missing values
+   - Excluded records without valid year, genre, or sales data
 
-2. **Data Transformation**  
-   - Grouped data by genre, publisher, year, and platform
-   - Added calculated fields like average sales per region
+2. **Data Transformation**
+   - Grouped data by genre, publisher, console, and year
+   - Calculated total and average sales across regions
 
-3. **Visualization**  
-   - Created an interactive dashboard in Excel
-   - Included pie charts, bar graphs, and line charts to show trends and insights
+3. **Visualization**
+   - Built interactive dashboard using Excel slicers and charts
+   - Added line charts, bar graphs, and pie charts for key insights
 
 ## Key Insights
 - **Total Games Analyzed**: 16,291  
-- **Average Global Sales**: $0.54 Million  
-- **Most Games Published By**: Electronic Arts  
-- **Top Console by Sales**: PS2  
-- **Leading Genre**: Action  
-- **Year with Peak Game Releases**: Around 2009  
-- **Highest Market Share**: Nintendo
+- **Average Global Sales per Game**: $0.54 Million  
+- **Average Regional Sales**:  
+  - North America: $0.27M  
+  - Europe: $0.15M  
+  - Japan: $0.08M  
+  - Other Regions: $0.05M  
+
+- **Most Popular Genre**: Action  
+- **Year with Most Game Releases**: Around 2009  
+- **Top Publisher by Game Count**: Electronic Arts  
+- **Top Selling Console**: PS2  
+- **Market Share (by Publisher)**:
+  - Nintendo: 26%
+  - Electronic Arts: 21%
+  - Activision: 13%
+  - Others include Ubisoft, Sony, and more
 
 ## How to Use This Project
-1. Download the cleaned CSV file and Excel dashboard.
-2. Open the `.xlsx` file to interact with the dashboard.
-3. Use slicers (Genre, Year, Date) to filter and explore different aspects of the data.
+1. Download the CSV and Excel dashboard from this repository.
+2. Open the Excel file to explore the dashboard.
+3. Use the slicers (Genre, Year, Platform) to filter and analyze specific segments.
+4. View trends across time, publisher performance, and sales region-wise.
 
 ## Suggestions for Improvement
-- Add more recent data to cover post-2016 game sales.
-- Include critic/user scores to analyze quality vs sales.
-- Use Python (Pandas/Matplotlib/Seaborn) or Power BI for deeper insights and automation.
-- Build a web dashboard using tools like Tableau Public or Streamlit.
-- Add predictive modeling to forecast future game sales.
+- Integrate review scores (Metacritic, user ratings) for more detailed analysis.
+- Build dynamic dashboards using Python or Power BI.
+- Extend dataset beyond 2016 with newer game releases.
+- Predict future sales using machine learning models.
+- Create a web-based version of the dashboard using Tableau or Streamlit.
 
 ## Conclusion
-This project provides a simple but informative analysis of global video game sales data. It highlights how genres, publishers, and platforms perform over time. The dashboard makes it easy to interact with and draw conclusions for both casual viewers and business users.
+This project provides a clean, interactive, and insightful analysis of video game sales data. The dashboard helps users quickly identify trends by genre, year, publisher, and platform. It’s useful for game enthusiasts, business analysts, and anyone interested in the gaming industry.
+
+---
