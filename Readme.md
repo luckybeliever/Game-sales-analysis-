@@ -11,6 +11,7 @@ This project uses a cleaned version of the **Video Game Sales** dataset (`vgsale
 - **Final Dataset Size**: 16,291 games
 
 ## Tools & Technologies Used
+- **Python** (Pandas,Matplotlib)
 - **Microsoft Excel** (Power Query, Pivot Tables, Slicers, Charts)
 - **CSV** (Data Storage)
 - **GitHub** (Project Hosting and Sharing)
